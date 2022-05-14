@@ -61,7 +61,9 @@ function init() {
   document.querySelector('.starting.load.button').addEventListener('click', loadProgress);
 
   document.querySelector('.left.sort.image').addEventListener('click', () => pick('left'));
+  document.querySelector('.left.sort.text').addEventListener('click', () => pick('left'));
   document.querySelector('.right.sort.image').addEventListener('click', () => pick('right'));
+  document.querySelector('.right.sort.text').addEventListener('click', () => pick('right'));
   
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
